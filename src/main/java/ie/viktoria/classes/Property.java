@@ -8,8 +8,8 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @NoArgsConstructor
 public class Property {
-    private String eircode;
     private int capacity;
     private int tenantsOccupy;
     private int cost;
+    private String eircode;
 }
